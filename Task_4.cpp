@@ -107,7 +107,7 @@ int main(int argc, char **argv)
 {
     const size_t SZ = 512;
     superlong<SZ> num1("abc");
-    superlong<SZ> num2("abr"); // r не является 16ричной цифрой
+    superlong<SZ> num2("abw"); // w не является 16ричной цифрой
     cout<<num1<<endl;
     cout<<num2<<endl;
     return 0;
