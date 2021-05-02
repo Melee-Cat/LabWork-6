@@ -14,7 +14,7 @@ private:
 public:
     superlong():value(
     {
-        0
+        
     }) {}
     superlong(const std::array<uint32_t, N / 32 + (N % 32 != 0)>& v):value(v) {}
     superlong(const std::string & s);
